@@ -34,20 +34,20 @@ h1,h2,h3,h4,h5,h6,p{
 
 main{
   padding: 1em 1.2em;
+  text-align: center;
 }
 
 main > h1{
   font-size: 19px;
   font-weight: 700;
   line-height: 20px;
+  /* text-align: center; */
 }
 
 main > p{
   font-size: 10px;
   font-weight: 400;
-  padding: 1em 0;
+  padding: 1.5em 0 0 0;
+  /* text-align: center; */
 }
 
-h1 > span{
-  text-indent: 3rem;
-}
